@@ -1,0 +1,114 @@
+body{
+    background-color: #1a1c19;
+}
+.navdiv{
+    width: 100%;
+    height: auto;
+    border: 1px solid #B1A592;
+    border-radius: 50px;
+    display: flex;
+    flex-direction: rows;
+    gap: 5px;
+    padding: 1px;
+}
+.navComponent{
+    width: 15%;
+    height: auto;
+    padding: 10px;
+    text-align: center;
+    margin: 1px;
+    border: 1px solid #B1A592;
+    border-radius: 50px;
+    color:  #B1A592;
+    font-size: 24px;
+    
+}
+.navComponent:hover{
+    background-color:  #B1A592;
+    color: #1a1c19;
+}
+.firstNavComponent{
+    width: 25%;
+    height: auto;
+    margin: 1px;
+    padding: 10px;
+    text-align: center;
+    background-color: #323025; 
+    color: #B1A592;
+    border: none;
+    border-radius: 50px;
+}
+.lastNavComponent{
+    margin-left: auto;
+    margin-right: 1px; 
+}
+
+
+
+
+#content{
+    border: 1px solid white;
+    width: 100%;
+    height: 90vh;
+    display: grid;
+    margin-top: 10px;
+    grid-template-areas: "a b b" "a c d" "a c d";
+    grid-template-rows: 35% ;
+    grid-template-columns: 40% 30% 30%;
+}
+
+.contentsection{
+    border: 1px solid white;
+    border-radius: 30px;
+    margin: 5px;
+    
+}
+.line{
+
+}
+
+#a{
+    grid-area: a;
+    background-color: #dfd6c5;
+    
+}
+#a h1{
+    font-size: 20px;
+}
+#a #aImageDiv{
+    border: 1px solid black;
+}
+
+
+#b{
+    grid-area: b;
+    background-color: #8E886D;
+}
+#b h1{
+    font-size: 20px;
+}
+#b #bImageDiv{
+    border: 1px solid black;
+}
+
+#c{
+    grid-area: c;
+    background-color: #916E58;
+}
+#c h1{
+    font-size: 24px;
+}
+#c #cImageDiv{
+    border: 1px solid black;
+}
+
+#d{
+    grid-area: d;
+    background-color: #B1A48E;
+}
+#d h1{
+    font-size: 24px;
+}
+#d #dImageDiv{
+    border: 1px solid black;
+}
