@@ -172,13 +172,19 @@ body{
 #d h1{
     font-size: 36px;
 }
+#dImageDiv{
+    width: 100%;
+    height: 100%;
+    text-align: right;
+}
 
 #dImageDiv img{
     border-radius: 50%;
-    width: 100%;
-    height: 100%;
+    width: 75%;
+    height: 75%;
     object-fit: cover;
-    margin-left: auto;
+    margin-top: 50%;
+    
     
 
 }
