@@ -4,49 +4,8 @@ html{
 body{
     background-color: #1a1c19;
 }
-.navdiv{
-    width: 100%;
-    height: auto;
-    border: 1px solid #B1A592;
-    border-radius: 50px;
-    display: flex;
-    flex-direction: rows;
-    gap: 5px;
-    padding: 1px;
-}
-.navComponent{
-    width: 130px;
-    height: auto;
-    border: 1px solid #B1A592;
-    border-radius: 50px;
-    padding: 10px;
-    text-align: center;
-    margin: 1px;
-    
-    color:  #B1A592;
-    font-size: 24px;
-    
-}
-.navComponent:hover{
-    background-color:  #B1A592;
-    color: #1a1c19;
-}
-.firstNavComponent{
-    width: 25%;
-    height: auto;
-    margin: 1px;
-    padding: 10px;
-    text-align: center;
-    background-color: #323025; 
-    color: #B1A592;
-    border: none;
-    border-radius: 50px;
-    font-size: 24px;
-}
-.lastNavComponent{
-    margin-left: auto;
-    margin-right: 1px; 
-}
+
+
 
 
 
@@ -81,45 +40,14 @@ body{
 }
 
 
-#b{
-    grid-area: b;
-    background-color: #8E886D;
-}
 
-#b h1{
-    font-size: 24px;
-}
-#bContentDiv{
-    
-    display: flex;
-    flex-direction: rows;
-    grid-template-colums: 50%;
-    width: 100%;
-    height: 80%;
-}
-#bImageDiv{
-    grid-area: "img";
-    border-radius: 20px;
-    width: 50%;
-    height: 75%;
-    margin: auto;
-    overflow: hidden;
-}
-#bImage{
-    width: 100%;
-    max-width: 100%;
-    height: 100%;
-    object-fit: cover;
-    border-radius: 20px;
-    
-}
-#bParaDiv{
-    grid-area: "para";
-    width: 50%;
-}
-#bParaHead{
-    
-}
+
+
+
+
+
+
+
 #b hr{
     margin:0px;
     padding: 0px;
@@ -138,12 +66,11 @@ body{
 #c{
     grid-area: c;
     background-color: #916E58;
-}
-
-#c{
     display: flex;
     flex-direction: column;
 }
+
+
 #cImage{
     width: 100%;
     height: 100%;
@@ -191,13 +118,7 @@ body{
 
 }
 
-.paraHeading{
-    border: 1px solid black;
-    border-radius: 50px;
-    width: fit-content;
-    padding: 10px;
-    text-transform: uppercase;
-}
+
 
 #dHeadContent{
     display: flex;
@@ -237,9 +158,101 @@ body{
         
 
     }
+
     #content{
         display: flex;
         flex-direction: column;
+    }
+    .navdiv1{
+        display: none;
+    }
+    .navdiv2{
+        display: none;
+    }
+    .navdiv3{
+        display: none;
+    }
+
+
+    .navdiv4{
+        width: 100%;
+        height: auto;
+        border: 1px solid #B1A592;
+        border-radius: 50px;
+        display: flex;
+        flex-direction: rows;
+        gap: 5px;
+        padding: 1px;
+    }
+    .navComponent4{
+        width: 130px;
+        height: auto;
+        border: 1px solid #B1A592;
+        border-radius: 50px;
+        padding: 10px;
+        text-align: center;
+        margin: 1px;
+        
+        color:  #B1A592;
+        font-size: 24px;
+        
+    }
+    .navComponent4:hover{
+        background-color:  #B1A592;
+        color: #1a1c19;
+    }
+    .firstNavComponent4{
+        width: 75%;
+        height: auto;
+        margin: 1px;
+        padding: 10px;
+        text-align: center;
+        background-color: #323025; 
+        color: #B1A592;
+        border: none;
+        border-radius: 50px;
+        font-size: 24px;
+    }
+    .lastNavComponent4{
+        width: 25%;
+        margin-left: auto;
+        margin-right: 1px; 
+    }
+
+
+    #b{
+        grid-area: b;
+        background-color: #8E886D;
+    }
+    #bContentDiv{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+    #bImageDiv{
+        border: 1px solid red;
+        border-radius: 20px;
+        width: 100%;
+        height: 50%;
+        margin: auto;
+        overflow: hidden;
+    }
+    #b h1{
+        font-size: 24px;
+        text-align: center;
+    }
+    #bParaDiv{
+        grid-area: "para";
+        width: 100%;
+    }
+
+
+    .paraHeading{
+        border: 1px solid black;
+        border-radius: 50px;
+        width: fit-content;
+        padding: 10px;
+        text-transform: uppercase;
     }
 }
 
@@ -247,12 +260,216 @@ body{
     body{
         background-color: blue;
     }
+
+    .navdiv1{
+        display: none;
+    }
+    .navdiv2{
+        display: none;
+    }
+    .navdiv4{
+        display: none;
+    }
+
+
+    .navdiv3{
+        width: 100%;
+        height: auto;
+        border: 1px solid #B1A592;
+        border-radius: 50px;
+        display: flex;
+        flex-direction: rows;
+        gap: 5px;
+        padding: 1px;
+    }
+    .navComponent3{
+        width: 130px;
+        height: auto;
+        border: 1px solid #B1A592;
+        border-radius: 50px;
+        padding: 10px;
+        text-align: center;
+        margin: 1px;
+        
+        color:  #B1A592;
+        font-size: 24px;
+        
+    }
+    .navComponent3:hover{
+        background-color:  #B1A592;
+        color: #1a1c19;
+    }
+    .firstNavComponent3{
+        width: 75%;
+        height: auto;
+        margin: 1px;
+        padding: 10px;
+        text-align: center;
+        background-color: #323025; 
+        color: #B1A592;
+        border: none;
+        border-radius: 50px;
+        font-size: 24px;
+    }
+    .lastNavComponent3{
+        width: 25%;
+        margin-left: auto;
+        margin-right: 1px; 
+    }
+
+    #bContentDiv{
+        display: none;
+    }
+    #bContentDiv2{
+    
+        display: flex;
+        flex-direction: rows;
+        width: 100%;
+        height: 80%;
+    }
+    #bImageDiv2{
+        grid-area: "img";
+        border-radius: 20px;
+        width: 50%;
+        height: 75%;
+        margin: auto;
+        overflow: hidden;
+    }
+    #bImage2{
+        width: 100%;
+        max-width: 100%;
+        height: 100%;
+        object-fit: cover;
+        border-radius: 20px;
+        
+    }
+    #b h1{
+        font-size: 24px;
+    }
+    #bParaDiv2{
+        grid-area: "para";
+        width: 50%;
+    }
 }
 
 @media only screen and (min-width: 801px){
     body{
         background-color: yellow;
     }
+    #content{
+        border: 1px solid white;
+        width: 100%;
+        height: 100%;
+        display: grid;
+        margin-top: 10px;
+        grid-template-areas: "a b b" "a c d" "a c d";
+        grid-template-rows: 35%;
+        grid-template-columns: 40% 30% 30%;
+    }
+
+    .navdiv1{
+        display: none;
+    }
+    .navdiv3{
+        display: none;
+    }
+    .navdiv4{
+        display: none;
+    }
+
+
+    .navdiv2{
+        width: 100%;
+        height: auto;
+        border: 1px solid #B1A592;
+        border-radius: 50px;
+        display: flex;
+        flex-direction: rows;
+        gap: 5px;
+        padding: 1px;
+    }
+    .navComponent2{
+        width: 130px;
+        height: auto;
+        border: 1px solid #B1A592;
+        border-radius: 50px;
+        padding: 10px;
+        text-align: center;
+        margin: 1px;
+        
+        color:  #B1A592;
+        font-size: 24px;
+        
+    }
+    .navComponent2:hover{
+        background-color:  #B1A592;
+        color: #1a1c19;
+    }
+    .firstNavComponent2{
+        width: 75%;
+        height: auto;
+        margin: 1px;
+        padding: 10px;
+        text-align: center;
+        background-color: #323025; 
+        color: #B1A592;
+        border: none;
+        border-radius: 50px;
+        font-size: 24px;
+    }
+    .lastNavComponent2{
+        width: 25%;
+        margin-left: auto;
+        margin-right: 1px; 
+    }
+
+    #b{
+        grid-area: b;
+        background-color: #8E886D;
+    }
+    #bContentDiv{
+        display: none;
+    }
+    #bContentDiv2{
+    
+        display: flex;
+        flex-direction: rows;
+        width: 100%;
+        height: 80%;
+    }
+    #bImageDiv2{
+        grid-area: "img";
+        border-radius: 20px;
+        width: 50%;
+        height: 75%;
+        margin: auto;
+        overflow: hidden;
+    }
+    #bImage2{
+        width: 100%;
+        max-width: 100%;
+        height: 100%;
+        object-fit: cover;
+        border-radius: 20px;
+        
+    }
+    #b h1{
+        font-size: 24px;
+    }
+    #bParaDiv2{
+        grid-area: "para";
+        width: 50%;
+    }
+
+
+    .paraHeading{
+        border: 1px solid black;
+        border-radius: 50px;
+        width: fit-content;
+        padding: 10px;
+        text-transform: uppercase;
+    }
+
 }
 
 @media only screen and (min-width: 1025px){
@@ -268,5 +485,106 @@ body{
         grid-template-areas: "a b b" "a c d" "a c d";
         grid-template-rows: 35%;
         grid-template-columns: 40% 30% 30%;
+    }
+
+    .navdiv4{
+        display: none;
+    }
+    .navdiv2{
+        display: none;
+    }
+    .navdiv3{
+        display: none;
+    }
+
+
+    .navdiv1{
+        width: 100%;
+        height: auto;
+        border: 1px solid #B1A592;
+        border-radius: 50px;
+        display: flex;
+        flex-direction: rows;
+        gap: 5px;
+        padding: 1px;
+    }
+    .navComponent1{
+        width: 130px;
+        height: auto;
+        border: 1px solid #B1A592;
+        border-radius: 50px;
+        padding: 10px;
+        text-align: center;
+        margin: 1px;
+        
+        color:  #B1A592;
+        font-size: 24px;
+        
+    }
+    .navComponent1:hover{
+        background-color:  #B1A592;
+        color: #1a1c19;
+    }
+    .firstNavComponent1{
+        width: 50%%;
+        height: auto;
+        margin: 1px;
+        padding: 10px;
+        text-align: center;
+        background-color: #323025; 
+        color: #B1A592;
+        border: none;
+        border-radius: 50px;
+        font-size: 24px;
+    }
+    .lastNavComponent1{
+        width: 25%;
+        margin-left: auto;
+        margin-right: 1px; 
+    }
+
+    #b{
+        grid-area: b;
+        background-color: #8E886D;
+    }
+    #bContentDiv2{
+    
+        display: flex;
+        flex-direction: rows;
+        width: 100%;
+        height: 80%;
+    }
+    #bImageDiv2{
+        grid-area: "img";
+        border-radius: 20px;
+        width: 50%;
+        height: 75%;
+        margin: auto;
+        overflow: hidden;
+    }
+
+    #bImage2{
+        width: 100%;
+        max-width: 100%;
+        height: 100%;
+        object-fit: cover;
+        border-radius: 20px;
+        
+    }
+    #b h1{
+        font-size: 24px;
+    }
+    #bParaDiv{
+        grid-area: "para";
+        width: 50%;
+    }
+
+
+    .paraHeading{
+        border: 1px solid black;
+        border-radius: 50px;
+        width: fit-content;
+        padding: 10px;
+        text-transform: uppercase;
     }
 }
